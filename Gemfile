@@ -64,3 +64,7 @@ group :development do
   gem 'rubocop-rails', require: false
   gem 'rubocop-rspec', require: false
 end
+
+gem 'devise'               # core authentication
+gem 'devise-jwt'           # JWT token integration
+
